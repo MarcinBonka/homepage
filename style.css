@@ -1,135 +1,142 @@
-body
-{
-    background-color: #2b2b29;
-    color: #989C94; 
+body {
+  background-color: #2b2b29;
+  color: #989c94;
 }
 
-main{
-margin-top: 70px;    
+main {
+  margin-top: 70px;
 }
 
-h1{
-    color: #E3E7D3; 
+h1 {
+  color: #e3e7d3;
 }
 
-h5
-{
-    color: rgb(204, 145, 19);
+h5 {
+  color: rgb(204, 145, 19);
 }
 
-a{
-    color: rgb(35,170,242);
+a {
+  color: rgb(35, 170, 242);
 }
 
 nav a {
-    color: #989C94;
-    padding-left: 10px;
-    padding-right: 10px;
+  color: #989c94;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-footer{
-    padding-top: 20px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color:#A72608;
+footer {
+  padding-top: 20px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #a72608;
 }
 
-.lesson-header
-{
-    color: #BDC2BF;
-    /* background-color: khaki; */
+.lesson-header {
+  color: #bdc2bf;
+  /* background-color: khaki; */
 }
 
-
-
-.navi-box{
-    background: #090C02;   
-    border-color: #A72608;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 2px;
-    padding: 20px;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 60px;
-    /* margin: 10px; */
-    box-sizing: border-box;
+.navi-box {
+  background: #090c02;
+  border-color: #a72608;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  padding: 20px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  /* margin: 10px; */
+  box-sizing: border-box;
 }
 
-.box-picturetext{
-    display: inline-block;
-    border-style: double;
-    border-width: 1px;
-    border-radius: 2px;
-    padding: 20px;
-    margin: 0 auto;
+.box-picturetext {
+  display: inline-block;
+  border-style: double;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
-.box-picturetext-picture{
-    display: inline-block;
-    width: 40%;
-    /* vertical-align: middle; */
+.box-picturetext-picture {
+  display: inline-block;
+  width: 40%;
+  /* vertical-align: middle; */
 }
 
-.box-picturetext-text{
-    /* padding: 20px; */
-    display: inline-block;
-    margin-left: 10px;
-    width: 50%;
-    vertical-align: top;
+.box-picturetext-text {
+  /* padding: 20px; */
+  display: inline-block;
+  margin-left: 10px;
+  width: 50%;
+  vertical-align: top;
 }
 
-.box-electronica-content{
-    /* width: 50%; */
-    padding: 20px 20%;
-    margin: 0 auto;
+.box-electronica-content {
+  /* width: 50%; */
+  padding: 20px 20%;
+  margin: 0 auto;
 }
 
-.box-investment-experience
-{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FA9F42;
-    width: 20%;
-    height: 200px;
-    /* padding: 10px; */
-    display: inline-block;
-    min-width: 200px;
-    box-sizing: border-box;
+.box-investment-experience {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fa9f42;
+  width: 20%;
+  height: 200px;
+  /* padding: 10px; */
+  display: inline-block;
+  min-width: 200px;
+  box-sizing: border-box;
 }
 
-.box-investment-experience-bar
-{
-    background-color: rgb(184, 76, 13);
-    color: rgb(248, 195, 97);
-    width: 100%;
-    height: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-sizing: border-box;  
+.box-investment-experience-bar {
+  background-color: rgb(184, 76, 13);
+  color: rgb(248, 195, 97);
+  width: 100%;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
-.box-invetments-goldenrules
-{
-    background-color: rgb(105, 64, 11);
-    margin: 20px 20px 20px 0px;
-    padding: 20px;
-    height: 300px;
-    position: relative;
+.box-invetments-goldenrules {
+  background-color: rgb(105, 64, 11);
+  margin: 20px 20px 20px 0px;
+  padding: 20px;
+  height: 300px;
+  position: relative;
 }
 
-
-.box-investment-goldenrule
-{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FA9F42;
-    width: 200px;
-    /* margin: 10px; */
-    padding: 10px;
-    position: absolute;
+.box-investment-goldenrule {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fa9f42;
+  width: 200px;
+  /* margin: 10px; */
+  padding: 10px;
+  position: absolute;
 }
 
+.box-mysticky1 {
+  color: rgb(248, 195, 97);
+  background-color: #080808;
+  border-style: outset;
+  border-width: 2px;
+  border-color: rgb(248, 195, 97);
+  width: 100%;
+  height: 20px;
+  top: 60px; /* To jest istotna właściwość dla sticky czyli odległośc od góry przy której zatrzymie się box z position sticky */
+  position: sticky;
+}
 
+.box-myfloat1 {
+  color: black;
+  background: rgb(204, 145, 19);
+  float: left;
+  height: 100px;
+}

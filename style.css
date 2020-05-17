@@ -1,26 +1,77 @@
 body
 {
-    background-color: #f0f191;
+    background-color: #2b2b29;
+    color: #989C94; 
 }
 
-a
-{
-    background-color: rgb(0, 252, 239);
+h1{
+    color: #E3E7D3; 
 }
 
 h5
 {
-    color: red;
+    color: rgb(204, 145, 19);
+}
+
+a{
+    color: rgb(35,170,242);
+}
+
+nav a {
+    color: #989C94;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    padding-top: 20px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color:#A72608;
 }
 
 .lesson-header
 {
-    color: #3682888c;
-    background-color: khaki;
+    color: #BDC2BF;
+    /* background-color: khaki; */
 }
 
-.specific-section
-{
-    color: #40429ec0;
-    background-color: rgb(133, 187, 136);
+
+
+.navi-box{
+    background: #090C02;   
+    border-color: #A72608;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 20px;
 }
+
+.box-picturetext{
+    display: inline-block;
+    border-style: double;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.box-picturetext-picture{
+    display: inline-block;
+    width: 40%;
+    /* vertical-align: middle; */
+}
+
+.box-picturetext-text{
+    /* padding: 20px; */
+    display: inline-block;
+    margin-left: 10px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.box-electronica-content{
+    width: 50%;
+    padding: 20px 20%;
+
+}
+

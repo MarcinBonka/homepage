@@ -40,6 +40,10 @@ displayNameAgeAsObject(Person);
 /* sposób 3 */
 Person.ShowMe(Person.Name, Person.Age);
 
+console.log(typeof(2));
+console.log(typeof(2.15));
+console.log(typeof('2.11'));
+
 
 
 

@@ -8,7 +8,7 @@ html{
 
 body {
   background-color: #2b2b29;
-  background: linear-gradient(175deg, rgba(2,0,36,1) 0%, rgba(9,92,121,0.938813025210084) 64%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(175deg, rgba(2,0,36,1) 0%, rgba(9,92,121,0.938813025210084) 64%, rgb(9, 102, 121) 100%);
   color: #989c94;
   padding-left: 20px;
 }
@@ -106,6 +106,12 @@ footer {
   margin: 0 auto;
 }
 
+.investment-experience{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .investment-experience__box {
   border-style: solid;
   border-width: 1px;
@@ -113,7 +119,8 @@ footer {
   width: 20%;
   height: 200px;
   /* padding: 10px; */
-  display: inline-block;
+  /* display: inline-block;*/
+  
   min-width: 200px;
   box-sizing: border-box;
   margin-top: 10px;
@@ -193,4 +200,109 @@ footer {
   color:  #664b0b;
 
 } */
+
+.main__myhouse
+{
+  display: grid;
+  grid-template-columns: [first] 1fr [second] 1fr  [third] 300px;
+  grid-template-rows: auto 100px; 
+
+  /* grid-template-areas: 
+    "main__myhouse__mainheader main__myhouse__mainheader main__myhouse__mainheader" 
+    "main__myhouse__gridheader--ourwork main__myhouse__gridheader--orderedwork spacer" 
+    "main__myhouse__article__ourwork main__myhouse__article__orderedwork main__myhouse__aside" 
+    "main__myhouse__footer main__myhouse__footer main__myhouse__footer"; */
+
+    grid-template-areas: "header1 header1 header1" "header2 header3 ." "article-left article-right aside" "footer footer footer";
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.main__myhouse__mainheader{
+  /* grid-area: header1; */
+  
+  /*
+  grid-column-start: 1;
+  grid-column-end: 4;
+*/
+
+  grid-column: first / span 2;
+}
+
+.main__myhouse__gridheader{
+  background-color: #a72608;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__myhouse__gridheader--ourwork{
+  grid-area: header2;
+}
+
+.main__myhouse__gridheader--orderedwork{
+  grid-area: header3;
+}
+/*
+.empty1{
+  grid-area: spacer;
+}*/
+
+/*
+.main__myhouse__gridheader{
+  grid-area: main__myhouse__gridheader;
+}*/
+
+.main__myhouse__article__ourwork{
+  grid-area: article-left;
+}
+
+.main__myhouse__article__orderedwork{
+  grid-area: article-right;
+}
+
+.main__myhouse__aside{
+  grid-area: aside;
+}
+
+.main__myhouse__footer{
+  grid-area: footer;
+}
+
+
+@media screen and (max-width: 778px){
+  .navi {
+    /* background: #435c0b; */
+    height: 160px;
+    /* flex-flow: column nowrap;*/
+    justify-content: left;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    /*
+    border-color: #a72608;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 20px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    */
+  }
+
+  .navi__link{
+    /*width: 100%;*/
+    display: block;
+  }
+
+  main {
+    margin-top: 160px;
+  }
+}
 

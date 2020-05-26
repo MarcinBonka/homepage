@@ -190,6 +190,7 @@ footer {
   padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
   
 }
 
@@ -270,6 +271,18 @@ footer {
   grid-area: footer;
 }
 
+.index_heading--js{
+  background-color: #fa9f42;
+}
+
+.btnHamburger{
+  display: none;
+  position: fixed;
+  right:2px;
+  top:2px;
+  z-index: 10;
+}
+
 
 @media screen and (max-width: 778px){
   .navi {
@@ -279,6 +292,7 @@ footer {
     justify-content: left;
     /*overflow: hidden;*/
     white-space: nowrap;
+    display: none;
     /*
     border-color: #a72608;
     border-style: solid;
@@ -296,13 +310,31 @@ footer {
     */
   }
 
+  .navi--open--js{
+    display: block;
+  }
+
   .navi__link{
     /*width: 100%;*/
     display: block;
   }
 
+  /*
   main {
     margin-top: 160px;
+  }
+  */
+  .main--shiftsmall--js {
+    margin-top: 25px;
+  }
+
+  .main--shiftlarge--js {
+    margin-top: 160px;
+  }
+
+  .btnHamburger{
+    display: block;
+    
   }
 }
 

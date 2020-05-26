@@ -44,7 +44,36 @@ console.log(typeof(2));
 console.log(typeof(2.15));
 console.log(typeof('2.11'));
 
+/* Obsługa buttona do modyfikacji nagłówka strony index */
+const button = document.querySelector('.buttonClickMe__action--js');
+button.addEventListener('click', (e) => {
+  console.log(`button ${button.innerHTML} clicked `);
+  console.log(`Now I'm changing the heading text`);
+  const indexHeading = document.querySelector('.index__heading');
+  indexHeading.innerHTML = 'A to jest now nagłówek';
+  console.log(`A teraz zmienie kole tła dla nagłówka przez dodanie klasy w java script`);
+  indexHeading.classList.toggle('index_heading--js');
+});
 
+/* Obsługa buttona "hamburger" (menu) */
+const btnHamburger = document.querySelector('.btnHamburger--js');
+btnHamburger.addEventListener('click',() => {
+  const naviMenu = document.querySelector('.navi--js');
+  naviMenu.classList.toggle('navi--open--js');
+  const indexMain = document.querySelector('.index__main--js')
+  if(naviMenu.classList.contains('navi--open--js'))
+  {
+    if(indexMain.classList.contains('main--shiftsmall--js'))
+    {
+      indexMain.classList.remove('main--shiftsmall--js');
+      indexMain.classList.add('main--shiftlarge--js');
+    }
+  } else if(indexMain.classList.contains('main--shiftlarge--js'))
+  {
+    indexMain.classList.remove('main--shiftlarge--js');
+    indexMain.classList.add('main--shiftsmall--js');
+  }
+});
 
 
 

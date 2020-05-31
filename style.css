@@ -36,6 +36,14 @@ nav a {
   padding-right: 10px;
 } */
 
+.index__heading::before{
+  content: 'START... ';
+}
+
+.index__heading::after{
+  content: ' ...FINISH';
+}
+
 .navi__link{
   color: #989c94;
   padding-left: 10px;
@@ -44,6 +52,10 @@ nav a {
 
 .navi__link--red{
   color: #e2491b;
+}
+
+.navi__link:hover{
+  background-color: rgb(0, 255, 34);
 }
 
 footer {
@@ -337,6 +349,9 @@ footer {
   .navi__link{
     /*width: 100%;*/
     display: block;
+  }
+
+  
   }
 
   /*

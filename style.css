@@ -26,16 +26,6 @@ h5 {
   color: rgb(204, 145, 19);
 }
 
-/* a {
-  color: rgb(35, 170, 242);
-}
-
-nav a {
-  color: #989c94;
-  padding-left: 10px;
-  padding-right: 10px;
-} */
-
 .index__heading::before{
   content: 'START... ';
 }
@@ -371,5 +361,5 @@ footer {
     display: block;
     
   }
-}
+
 
